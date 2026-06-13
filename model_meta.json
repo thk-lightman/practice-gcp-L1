@@ -1,0 +1,34 @@
+{
+  "K": 8,
+  "N": [
+    266,
+    373,
+    487,
+    700,
+    415,
+    113,
+    341,
+    876
+  ],
+  "y": [
+    91,
+    89,
+    205,
+    111,
+    237,
+    12,
+    178,
+    138
+  ],
+  "campaign_ids": [
+    "camp_0",
+    "camp_1",
+    "camp_2",
+    "camp_3",
+    "camp_4",
+    "camp_5",
+    "camp_6",
+    "camp_7"
+  ],
+  "model_version": "v1.0-hierarchical-beta-binomial"
+}
