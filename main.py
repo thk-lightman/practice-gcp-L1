@@ -26,6 +26,7 @@ def health():
         "model_loaded": True,
         "model_version": meta["model_version"],
         "n_campaigns": meta["K"],
+        "revision": os.environ.get("K_REVISION", "local"),
     }
 
 

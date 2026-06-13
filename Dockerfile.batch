@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY model_trace.nc .
+COPY model_meta.json .
+COPY batch_predict.py .
+
+CMD ["python", "batch_predict.py"]
